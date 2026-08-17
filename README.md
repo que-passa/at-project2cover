@@ -35,7 +35,17 @@ This writes `dumps/<project-id>/{meta,summary,entities}.json`. Dumps stay local 
 | `npm test` | Run renderer self-tests against local dumps |
 | `npm run check` | Type-check Svelte/TS |
 
-## Preview covers
+## Preview gallery (GitHub Pages)
+
+Static cover previews are published automatically on push to `main`:
+
+**https://que-passa.github.io/at-project2cover/**
+
+Source files live in [`.preview-covers/`](.preview-covers/) (`index.html` + SVGs). The workflow is [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
+
+To enable Pages the first time, see **GitHub Pages setup** below.
+
+## Preview covers (local)
 
 Generated SVG previews for sample projects live in [`.preview-covers/`](.preview-covers/). These are committed as reference output; the interactive app renders live from dump data instead.
 
@@ -47,6 +57,17 @@ Generated SVG previews for sample projects live in [`.preview-covers/`](.preview
 
 See [`BRIEFING.md`](BRIEFING.md) for goals and constraints, and [`research/`](research/) for design notes.
 
-## Deployment note
+## GitHub Pages setup (one-time)
 
-This is a server-rendered app (not a static site). To deploy publicly you need a Node/serverless host plus either bundled sample dumps or a data source on the server. The dump script token is only required locally — visitors of the web UI do not need `AT_PAT`.
+After cloning or forking, enable the preview gallery on GitHub:
+
+1. Open **https://github.com/que-passa/at-project2cover/settings/pages**
+2. Under **Build and deployment → Source**, choose **GitHub Actions** (not “Deploy from a branch”).
+3. Push to `main` or re-run the **Deploy preview gallery** workflow under **Actions**.
+4. When the workflow finishes, the site is live at **https://que-passa.github.io/at-project2cover/** (first deploy can take 1–2 minutes).
+
+No secrets or environment variables are required for the gallery.
+
+## Full app deployment
+
+The interactive SvelteKit app is server-rendered and reads `dumps/` from disk. It does **not** run on GitHub Pages. For that, use Vercel/Netlify with a bundled data strategy. The dump script token is only required locally — gallery visitors do not need `AT_PAT`.
