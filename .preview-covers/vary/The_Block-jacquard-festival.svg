@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="region-linen">
+  <defs>
+    <filter id="jq-festival-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="jq-festival-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#787061" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#787061" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#e8dcc4"/>
+  <rect x="0" y="0" width="900" height="450.6" fill="#e3c5c0"/><rect x="0" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="69.23076923076923" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="138.46153846153845" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="207.69230769230768" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="276.9230769230769" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="346.15384615384613" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="415.38461538461536" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="484.6153846153846" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="553.8461538461538" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="623.0769230769231" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="692.3076923076923" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="761.5384615384614" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="830.7692307692307" y="0" width="69.63076923076923" height="450.4" fill="#2f8a7a" opacity="0.9099999999999999"/><rect x="0" y="450" width="900" height="450.6" fill="#e3c5c0"/><rect x="0" y="0" width="4.4" height="900" fill="#d070b0"/><rect x="892" y="0" width="4.4" height="900" fill="#d070b0"/><rect x="4" y="0" width="4.4" height="900" fill="#d070b0"/><rect x="896" y="0" width="4.4" height="900" fill="#d070b0"/><rect x="0" y="894" width="900" height="6" fill="#2f6b5a"/>
+  <rect width="900" height="900" filter="url(#jq-festival-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#jq-festival-vig)" style="pointer-events:none"/>
+</svg>

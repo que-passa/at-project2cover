@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="region-linen">
+  <defs>
+    <filter id="jq-albers-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="jq-albers-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#918777" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#918777" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#1c1610"/>
+  <rect width="900" height="900" fill="#1c1610"/><rect x="27" y="22" width="851" height="856" fill="#d070b0"/><rect x="38" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="101.38461538461539" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="164.76923076923077" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="228.15384615384616" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="291.53846153846155" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="354.9230769230769" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="418.3076923076923" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="481.69230769230774" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="545.0769230769231" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="608.4615384615385" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="671.8461538461538" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="735.2307692307693" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="798.6153846153846" y="38" width="63.38461538461539" height="412" fill="#acc5af" opacity="0.35"/><rect x="0" y="0" width="4.4" height="900" fill="#d070b0"/><rect x="892" y="0" width="4.4" height="900" fill="#d070b0"/><rect x="4" y="0" width="4.4" height="900" fill="#d070b0"/><rect x="896" y="0" width="4.4" height="900" fill="#d070b0"/><rect x="0" y="894" width="900" height="6" fill="#c45c4a"/>
+  <rect width="900" height="900" filter="url(#jq-albers-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#jq-albers-vig)" style="pointer-events:none"/>
+</svg>

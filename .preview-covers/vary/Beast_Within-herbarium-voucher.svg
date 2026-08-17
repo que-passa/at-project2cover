@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="succulent">
+  <defs>
+    <filter id="hbvoucher-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="hbvoucher-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#8b887d" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#8b887d" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#141610"/>
+  <ellipse cx="162.0" cy="137.7" rx="360" ry="300" fill="rgba(58,80,98,0.5)"/>
+  <ellipse cx="738.0" cy="792.0" rx="420" ry="180" fill="rgba(18,20,15,0.4)"/><ellipse cx="162.0" cy="342.0" rx="380" ry="300" fill="rgba(58,110,168,0.2)"/><path d="M 65.1 280.0 Q 287.3 260.4, 184.2 45.8 Q -49.9 88.8, 65.1 280.0 Z" fill="rgba(230,224,208,0.84)" stroke="none" stroke-width="0.6"/><path d="M 326.4 450.0 Q 486.6 562.5, 538.7 360.2 Q 357.3 256.7, 326.4 450.0 Z" fill="rgba(230,224,208,0.84)" stroke="none" stroke-width="0.6"/><path d="M 587.7 620.0 Q 633.9 794.5, 790.8 682.8 Q 724.3 502.0, 587.7 620.0 Z" fill="rgba(230,224,208,0.84)" stroke="none" stroke-width="0.6"/><circle cx="194.7" cy="260.0" r="3.7" fill="rgba(58,110,168,0.38)"/><circle cx="822.4" cy="400.0" r="3.5" fill="rgba(136,88,184,0.38)"/><circle cx="844.4" cy="440.0" r="3.3" fill="rgba(104,104,192,0.38)"/><circle cx="269.5" cy="440.0" r="2.9" fill="rgba(138,58,64,0.38)"/><circle cx="847.4" cy="540.0" r="3.7" fill="rgba(196,120,58,0.38)"/><circle cx="77.5" cy="260.0" r="3.5" fill="rgba(58,36,24,0.38)"/><circle cx="319.6" cy="440.0" r="3.0" fill="rgba(106,74,50,0.38)"/><circle cx="764.7" cy="300.0" r="3.6" fill="rgba(58,110,168,0.38)"/><circle cx="102.5" cy="380.0" r="3.5" fill="rgba(136,88,184,0.38)"/><circle cx="772.5" cy="400.0" r="3.8" fill="rgba(104,104,192,0.38)"/><circle cx="828.7" cy="380.0" r="2.2" fill="rgba(138,58,64,0.38)"/><circle cx="277.3" cy="260.0" r="3.7" fill="rgba(196,120,58,0.38)"/><circle cx="182.2" cy="440.0" r="3.7" fill="rgba(58,36,24,0.38)"/><circle cx="289.9" cy="300.0" r="3.6" fill="rgba(106,74,50,0.38)"/><circle cx="302.3" cy="380.0" r="3.7" fill="rgba(58,110,168,0.38)"/><circle cx="266.5" cy="440.0" r="2.3" fill="rgba(136,88,184,0.38)"/><circle cx="810.0" cy="320.0" r="3.6" fill="rgba(104,104,192,0.38)"/><circle cx="241.4" cy="300.0" r="2.3" fill="rgba(138,58,64,0.38)"/><circle cx="332.0" cy="260.0" r="3.1" fill="rgba(196,120,58,0.38)"/><circle cx="107.2" cy="300.0" r="3.7" fill="rgba(58,36,24,0.38)"/><circle cx="252.4" cy="380.0" r="3.7" fill="rgba(106,74,50,0.38)"/><circle cx="40.0" cy="300.0" r="3.6" fill="rgba(58,110,168,0.38)"/><circle cx="834.9" cy="400.0" r="3.4" fill="rgba(136,88,184,0.38)"/><circle cx="791.2" cy="440.0" r="2.2" fill="rgba(104,104,192,0.38)"/><circle cx="778.7" cy="380.0" r="2.0" fill="rgba(138,58,64,0.38)"/><circle cx="860.0" cy="320.0" r="3.5" fill="rgba(196,120,58,0.38)"/><circle cx="831.8" cy="380.0" r="3.2" fill="rgba(58,36,24,0.38)"/><circle cx="806.8" cy="260.0" r="3.0" fill="rgba(106,74,50,0.38)"/><circle cx="794.3" cy="440.0" r="3.2" fill="rgba(58,110,168,0.38)"/><circle cx="852.1" cy="260.0" r="3.6" fill="rgba(136,88,184,0.38)"/><circle cx="291.5" cy="300.0" r="2.3" fill="rgba(104,104,192,0.38)"/><circle cx="254.0" cy="380.0" r="2.2" fill="rgba(138,58,64,0.38)"/><circle cx="132.3" cy="440.0" r="3.8" fill="rgba(196,120,58,0.38)"/><circle cx="781.9" cy="380.0" r="3.2" fill="rgba(58,36,24,0.38)"/><circle cx="856.8" cy="260.0" r="2.8" fill="rgba(106,74,50,0.38)"/><circle cx="803.8" cy="260.0" r="2.5" fill="rgba(58,110,168,0.38)"/>
+  <rect width="900" height="900" filter="url(#hbvoucher-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#hbvoucher-vig)" style="pointer-events:none"/>
+</svg>

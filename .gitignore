@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.svelte-kit
+build
+.output
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+.env
+.env.local
+.env.*.local
+
+# Local project dumps (may contain unpublished studio documents)
+dumps/

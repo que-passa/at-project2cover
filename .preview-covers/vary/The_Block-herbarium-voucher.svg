@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="orb">
+  <defs>
+    <filter id="hbvoucher-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="hbvoucher-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#8b887d" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#8b887d" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#141610"/>
+  <ellipse cx="450.0" cy="137.7" rx="280" ry="300" fill="rgba(118,81,102,0.5)"/>
+  <ellipse cx="450.0" cy="792.0" rx="220" ry="280" fill="rgba(18,20,15,0.4)"/><ellipse cx="450.0" cy="342.0" rx="220" ry="300" fill="rgba(208,112,176,0.2)"/><circle cx="180.0" cy="154.8" r="84.0" fill="rgba(NaN,186,NaN,0.58)" stroke="rgba(236,230,214,0.28)"/>
+  <circle cx="163.2" cy="138.0" r="28.6" fill="rgba(20,22,16,0.28)"/><circle cx="720.0" cy="302.4" r="84.0" fill="rgba(NaN,186,NaN,0.58)" stroke="rgba(236,230,214,0.28)"/>
+  <circle cx="703.2" cy="285.6" r="28.6" fill="rgba(20,22,16,0.28)"/>
+  <rect width="900" height="900" filter="url(#hbvoucher-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#hbvoucher-vig)" style="pointer-events:none"/>
+</svg>

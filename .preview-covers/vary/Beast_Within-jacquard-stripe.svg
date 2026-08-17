@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="onset-belt">
+  <defs>
+    <filter id="jq-stripe-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="jq-stripe-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#978369" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#978369" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#2a1c12"/>
+  <rect x="0.7941176470587976" y="0" width="223.4117647058824" height="900" fill="#3a6ea8"/><rect x="230.16176470588235" y="0" width="214.6764705882353" height="900" fill="#3a6ea8"/><rect x="544.5" y="0" width="36" height="900" fill="#3a6ea8"/><rect x="675" y="0" width="235" height="900" fill="#3a6ea8"/><rect x="0" y="0" width="8.4" height="900" fill="#3a6ea8"/><rect x="892" y="0" width="8.4" height="900" fill="#3a6ea8"/><rect x="0" y="894" width="900" height="6" fill="#9a4e2a"/>
+  <rect width="900" height="900" filter="url(#jq-stripe-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#jq-stripe-vig)" style="pointer-events:none"/>
+</svg>

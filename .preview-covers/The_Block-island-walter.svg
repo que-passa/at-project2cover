@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="open-water">
+  <defs>
+    <filter id="is-walter-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="is-walter-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#3c413d" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#3c413d" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#6e7874"/>
+  <rect width="900" height="900" fill="#6e7874"/><path d="M 736.5 90 L 450 -120 L 163.5 90 L 492 247.5 L 376.5 205.5 Z" fill="#d8d2c4" stroke="#141410" stroke-width="3"/><circle cx="810" cy="90" r="3.6" fill="#141410"/><circle cx="90" cy="90" r="3.6" fill="#141410"/>
+  <rect width="900" height="900" filter="url(#is-walter-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#is-walter-vig)" style="pointer-events:none"/>
+</svg>

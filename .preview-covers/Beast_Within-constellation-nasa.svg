@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="note-sky">
+  <defs>
+    <filter id="ur-nasa-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="ur-nasa-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#817e74" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#817e74" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#081018"/>
+  <circle cx="450" cy="450" r="396" fill="none" stroke="rgba(122,168,160,0.28)" stroke-width="1.2"/><circle cx="450" cy="450" r="270" fill="none" stroke="rgba(122,168,160,0.16)" stroke-width="0.8"/><line x1="828" y1="450" x2="873" y2="450" stroke="rgba(122,168,160,0.38)" stroke-width="1.2"/><line x1="450" y1="828" x2="450" y2="873" stroke="rgba(122,168,160,0.38)" stroke-width="1.2"/><line x1="72" y1="450.00000000000006" x2="27" y2="450.00000000000006" stroke="rgba(122,168,160,0.38)" stroke-width="1.2"/><line x1="449.99999999999994" y1="72" x2="449.99999999999994" y2="27" stroke="rgba(122,168,160,0.38)" stroke-width="1.2"/><path d="M 48.630634868851374 191.7302147785171 L 130.30824035594387 54.49573752427753 L 808.7308009750291 53.79195505361335 L 851.3192305316941 177.7602530915386 L 851.8669496242841 416.2134421094206 L 728.9482809416359 542.5416692566833 L 647.2535646295685 544.7355700392269 L 290.66481596972733 532.6840838444654 L 48.10262238881357 369.1782298686882 Z" fill="none" stroke="rgba(122,168,160,0.7)" stroke-width="1.8"/><polygon points="143.17948717948718,64 222.35897435897436,64 222.35897435897436,235.191 143.17948717948718,235.191" fill="rgba(136,88,184,0.32)" stroke="rgba(228,216,192,0.55)" stroke-width="1.8"/><circle cx="182.76923076923077" cy="149.59550000000002" r="3.2" fill="#e4d8c0"/><polygon points="64,196.17798 143.17948717948718,196.17798 143.17948717948718,367.36897999999997 64,367.36897999999997" fill="rgba(136,88,184,0.32)" stroke="rgba(228,216,192,0.55)" stroke-width="1.8"/><circle cx="103.58974358974359" cy="281.77348" r="3.2" fill="#e4d8c0"/><polygon points="301.53846153846155,311.5418 380.71794871794873,311.5418 380.71794871794873,520.9468 301.53846153846155,520.9468" fill="rgba(104,104,192,0.32)" stroke="rgba(228,216,192,0.55)" stroke-width="1.8"/><circle cx="341.12820512820514" cy="416.2443" r="3.2" fill="#e4d8c0"/><polygon points="222.35897435897436,64 301.53846153846155,64 301.53846153846155,235.191 222.35897435897436,235.191" fill="rgba(136,88,184,0.32)" stroke="rgba(228,216,192,0.55)" stroke-width="1.8"/><circle cx="261.94871794871796" cy="149.59550000000002" r="3.2" fill="#e4d8c0"/><polygon points="796.4102564102564,183.56736 836.4102564102564,183.56736 836.4102564102564,412.07936000000007 796.4102564102564,412.07936000000007" fill="rgba(104,104,192,0.32)" stroke="rgba(228,216,192,0.55)" stroke-width="1.8"/><circle cx="816.4102564102564" cy="297.82336000000004" r="3.2" fill="#e4d8c0"/><polygon points="638.0512820512821,303.13472 717.2307692307693,303.13472 717.2307692307693,531.6467200000001 638.0512820512821,531.6467200000001" fill="rgba(104,104,192,0.32)" stroke="rgba(228,216,192,0.55)" stroke-width="1.8"/><circle cx="677.6410256410256" cy="417.39072000000004" r="3.2" fill="#e4d8c0"/><polygon points="717.2307692307692,64 796.4102564102564,64 796.4102564102564,292.51200000000006 717.2307692307692,292.51200000000006" fill="rgba(104,104,192,0.32)" stroke="rgba(228,216,192,0.55)" stroke-width="1.8"/><circle cx="756.8205128205127" cy="178.25600000000003" r="3.2" fill="#e4d8c0"/>
+  <rect width="900" height="900" filter="url(#ur-nasa-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#ur-nasa-vig)" style="pointer-events:none"/>
+</svg>

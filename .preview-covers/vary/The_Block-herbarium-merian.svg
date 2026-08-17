@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="orb">
+  <defs>
+    <filter id="hbmerian-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="hbmerian-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#745e3a" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#745e3a" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#d8b878"/>
+  <ellipse cx="450.0" cy="137.7" rx="280" ry="300" fill="rgba(166,108,104,0.5)"/>
+  <ellipse cx="450.0" cy="792.0" rx="220" ry="280" fill="rgba(203,168,104,0.4)"/><circle cx="720.0" cy="319.0" r="181.2" fill="rgba(208,112,176,0.58)" stroke="rgba(34,20,8,0.28)"/>
+  <circle cx="683.8" cy="282.7" r="61.6" fill="rgba(216,184,120,0.28)"/><circle cx="180.0" cy="427.0" r="131.2" fill="rgba(47,138,122,0.58)" stroke="rgba(34,20,8,0.28)"/>
+  <circle cx="153.8" cy="400.7" r="44.6" fill="rgba(216,184,120,0.28)"/><path d="M 720.0 387.0 Q 450.0 507.0, 180.0 427.0" fill="none" stroke="#2e3c18" stroke-width="5"/><path d="M 108.0 738.0 Q 281.4 697.3, 477.2 603.2 Q 266.9 657.4, 108.0 738.0 Z" fill="rgba(87,73,62,0.75)" stroke="rgba(34,20,8,0.22)" stroke-width="0.6"/><path d="M 108.0 738.0 L 477.2 603.2" fill="none" stroke="rgba(34,20,8,0.32)" stroke-width="0.8"/>
+  <rect width="900" height="900" filter="url(#hbmerian-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#hbmerian-vig)" style="pointer-events:none"/>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="rule">
+  <defs>
+    <filter id="onletch-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="onletch-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#7d6d5b" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#7d6d5b" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#e2d6b6"/>
+  <path d="M 73.0 506.8 L 827.0 506.8" fill="none" stroke="rgba(43,35,27,0.55)" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="miter"/><path d="M 66.0 503.2 L 79.8 510.5 M 160.5 503.2 L 174.3 510.5 M 254.5 503.2 L 268.3 510.5 M 348.7 503.2 L 362.5 510.5 M 443.0 503.2 L 456.9 510.5 M 537.2 503.2 L 551.1 510.5 M 631.6 503.2 L 645.5 510.5 M 725.7 503.2 L 739.5 510.5 M 820.0 503.2 L 833.8 510.5" fill="none" stroke="#2b231b" stroke-width="2.0" stroke-linecap="butt" stroke-linejoin="miter" opacity="0.900"/>
+  <rect width="900" height="900" filter="url(#onletch-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#onletch-vig)" style="pointer-events:none"/>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1">
+  <defs>
+    <filter id="jq-stripe-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="jq-stripe-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#978369" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#978369" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#2a1c12"/>
+  <rect x="0" y="0" width="89.81818181818181" height="900" fill="#3d8a5a"/><rect x="89.18181818181819" y="0" width="67.09090909090908" height="900" fill="#7a9a3c"/><rect x="171" y="0" width="67.09090909090908" height="900" fill="#d4783a"/><rect x="252.8181818181818" y="0" width="67.09090909090908" height="900" fill="#2f8a7a"/><rect x="334.6363636363636" y="0" width="67.09090909090908" height="900" fill="#2f7a8a"/><rect x="416.45454545454544" y="0" width="67.09090909090908" height="900" fill="#e0a030"/><rect x="498.27272727272725" y="0" width="67.09090909090908" height="900" fill="#3a6ea8"/><rect x="580.0909090909091" y="0" width="67.09090909090908" height="900" fill="#c9b44a"/><rect x="661.9090909090909" y="0" width="67.09090909090908" height="900" fill="#3d8a5a"/><rect x="743.7272727272726" y="0" width="67.09090909090908" height="900" fill="#7a9a3c"/><rect x="825.5454545454545" y="0" width="67.09090909090908" height="900" fill="#d4783a"/>
+  <rect width="900" height="900" filter="url(#jq-stripe-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#jq-stripe-vig)" style="pointer-events:none"/>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="sparse-jewel">
+  <defs>
+    <filter id="su-iso-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="su-iso-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#908677" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#908677" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#1a1410"/>
+  <polygon points="140,798 760,798 820,720 200,720" fill="#39342f"/>
+    <polygon points="200,720 820,720 820,708.3 200,708.3" fill="#4a3e35"/>
+  <polygon points="306,342 516,342 516,472.2 306,472.2" fill="#716355"/>
+  <polygon points="306,342 385.8,262.2 595.8,262.2 516,342" fill="#dacfbb"/>
+  <polygon points="516,342 595.8,262.2 595.8,392.4 516,472.2" fill="#524d48"/>
+  <rect width="900" height="900" filter="url(#su-iso-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#su-iso-vig)" style="pointer-events:none"/>
+</svg>

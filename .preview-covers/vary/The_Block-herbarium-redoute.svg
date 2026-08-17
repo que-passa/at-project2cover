@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="orb">
+  <defs>
+    <filter id="hbredoute-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="hbredoute-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#846869" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#846869" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#edd4cc"/>
+  <ellipse cx="450.0" cy="137.7" rx="280" ry="300" fill="rgba(201,131,162,0.5)"/>
+  <ellipse cx="450.0" cy="792.0" rx="220" ry="280" fill="rgba(233,201,194,0.4)"/><path d="M 432.0 930 C 396.0 620, 360.0 380, 306.0 428.0" fill="none" stroke="#3a4a2c" stroke-width="7"/><circle cx="306.0" cy="378.0" r="117.6" fill="rgba(208,112,176,0.58)" stroke="rgba(46,16,24,0.28)"/>
+  <circle cx="282.5" cy="354.5" r="40.0" fill="rgba(237,212,204,0.28)"/><circle cx="630.0" cy="468.0" r="92.4" fill="rgba(47,138,122,0.58)" stroke="rgba(46,16,24,0.28)"/>
+  <circle cx="611.5" cy="449.5" r="31.4" fill="rgba(237,212,204,0.28)"/>
+  <rect width="900" height="900" filter="url(#hbredoute-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#hbredoute-vig)" style="pointer-events:none"/>
+</svg>

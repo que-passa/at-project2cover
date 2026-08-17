@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="note-sky">
+  <defs>
+    <filter id="ur-nasa-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="ur-nasa-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#817e74" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#817e74" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#081018"/>
+  <circle cx="450" cy="450" r="396" fill="none" stroke="rgba(122,168,160,0.28)" stroke-width="1.2"/><circle cx="450" cy="450" r="270" fill="none" stroke="rgba(122,168,160,0.16)" stroke-width="0.8"/><line x1="828" y1="450" x2="873" y2="450" stroke="rgba(122,168,160,0.38)" stroke-width="1.2"/><line x1="450" y1="828" x2="450" y2="873" stroke="rgba(122,168,160,0.38)" stroke-width="1.2"/><line x1="72" y1="450.00000000000006" x2="27" y2="450.00000000000006" stroke="rgba(122,168,160,0.38)" stroke-width="1.2"/><line x1="449.99999999999994" y1="72" x2="449.99999999999994" y2="27" stroke="rgba(122,168,160,0.38)" stroke-width="1.2"/><path d="M 175.1008029000243 426.11766767916316 L 200.73278250278472 327.4125664450575 L 279.47256435233413 264.53071591229576 L 359.79614189191705 218.34903296842327 L 450.2793947699347 180.38843977903989 L 546.0271852799663 204.68105910229445 L 615.2995014468886 270.94101853115905 L 662.2554190251063 346.38171683813476 L 698.4268229637138 428.74493599750343 L 709.8002359688943 525.3954553754779 L 655.8529464650755 606.8390842991399 L 499.71769490827825 716.2181693185355 L 404.4240711146424 696.7071385021817 L 232.78522345311143 615.7313988707825 L 202.27655206266368 522.2247462150682 Z" fill="none" stroke="rgba(122,168,160,0.7)" stroke-width="1.8"/><circle cx="450" cy="196.38600017312913" r="3.6" fill="#e4d8c0"/><circle cx="539.3960344781954" cy="219.2422348461749" r="3.6" fill="#bfad95"/><circle cx="603.4414103107714" cy="281.6827909457812" r="3.6" fill="#dac7a8"/><circle cx="647.2025126283617" cy="351.80481641410097" r="3.6" fill="#c9bfad"/><circle cx="682.4293203593152" cy="428.462251681949" r="3.6" fill="#e4d8c0"/><circle cx="694.8602005223486" cy="519.6687337255321" r="3.6" fill="#dac7a8"/><circle cx="643.7818419306315" cy="596.3372542053646" r="3.6" fill="#c9bfad"/><circle cx="566.3931625763643" cy="637.9814120081461" r="3.6" fill="#bfad95"/><circle cx="496.8232301014142" cy="700.4821573243286" r="3.6" fill="#e4d8c0"/><circle cx="406.8390948606686" cy="680.8904492055517" r="3.6" fill="#c9bfad"/><circle cx="341.5807538630405" cy="625.1030947742549" r="3.6" fill="#bfad95"/><circle cx="244.69081617536355" cy="605.0422987247526" r="3.6" fill="#dac7a8"/><circle cx="217.12286312845745" cy="516.2592581597881" r="3.6" fill="#e4d8c0"/><circle cx="191.1004367387107" cy="426.00942245773996" r="3.6" fill="#bfad95"/><circle cx="215.61426324674812" cy="333.28977078615765" r="3.6" fill="#dac7a8"/><circle cx="291.019307477216" cy="275.60648781352205" r="3.6" fill="#c9bfad"/><circle cx="365.9754480736243" cy="233.10762961961998" r="3.6" fill="#e4d8c0"/>
+  <rect width="900" height="900" filter="url(#ur-nasa-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#ur-nasa-vig)" style="pointer-events:none"/>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1">
+  <defs>
+    <filter id="tl-chr-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="tl-chr-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#988268" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#988268" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#2a1810"/>
+  <rect x="0" y="0" width="164.8854961832061" height="900" fill="#2f7a8a"/><rect x="8" y="40" width="148.8854961832061" height="820" fill="#3a6ea8" opacity="0.38"/><rect x="164.8854961832061" y="0" width="137.40458015267177" height="900" fill="#c44858"/><rect x="172.8854961832061" y="58" width="121.40458015267177" height="784" fill="#7a9a3c" opacity="0.38"/><rect x="302.29007633587787" y="0" width="192.3664122137405" height="900" fill="#c44858"/><rect x="310.29007633587787" y="76" width="176.3664122137405" height="748" fill="#38a090" opacity="0.38"/><rect x="494.65648854961836" y="0" width="405.34351145038164" height="900" fill="#7a9a3c"/><rect x="502.65648854961836" y="94" width="389.34351145038164" height="712" fill="#7a9a3c" opacity="0.38"/>
+  <rect width="900" height="900" filter="url(#tl-chr-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#tl-chr-vig)" style="pointer-events:none"/>
+</svg>

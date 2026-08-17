@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="onset-belt">
+  <defs>
+    <filter id="jq-stripe-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="jq-stripe-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#978369" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#978369" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#2a1c12"/>
+  <rect x="0" y="0.02065677896589258" width="100" height="900" fill="#d4783a"/><rect x="127.8" y="14.112715548354647" width="14.4" height="900" fill="#e0a030"/><rect x="217.8" y="17.5245525494854" width="14.4" height="900" fill="#7a9a3c"/><rect x="284.83436612054896" y="7.674157560131771" width="60.33126775890211" height="900" fill="#3d8a5a"/><rect x="397.8" y="-7.983886874570214" width="14.4" height="900" fill="#2f7a8a"/><rect x="467.32866815791067" y="-17.599884893688106" width="55.3426636841787" height="900" fill="#4a58b0"/><rect x="577.8" y="-13.896640906095396" width="14.4" height="900" fill="#8a3a90"/><rect x="643.1390559821051" y="0.32330386827454355" width="63.721888035789846" height="900" fill="#2f8a7a"/><rect x="735.2054893900006" y="14.29857872069525" width="59.58902121999879" height="900" fill="#b03a6a"/><rect x="826.4938561755638" y="17.452974261499396" width="57.012287648872494" height="900" fill="#6a4aa8"/><rect x="0" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="859.35" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="4.065" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="863.4150000000001" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="8.13" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="867.48" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="12.195" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="871.5450000000001" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="16.26" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="875.61" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="20.325000000000003" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="879.6750000000001" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="24.39" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="883.74" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="28.455000000000002" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="887.8050000000001" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="32.52" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="891.87" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="36.585" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="895.9350000000001" y="0" width="4.465000000000001" height="900" fill="#b080d8"/><rect x="0" y="894" width="900" height="6" fill="#9a4e2a"/>
+  <rect width="900" height="900" filter="url(#jq-stripe-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#jq-stripe-vig)" style="pointer-events:none"/>
+</svg>

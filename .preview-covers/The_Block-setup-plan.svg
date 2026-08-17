@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="sparse-jewel">
+  <defs>
+    <filter id="su-plan-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="su-plan-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#897e66" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#897e66" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#12100c"/>
+  <rect x="0" y="702" width="900" height="198" fill="#1f1b13"/><rect x="0" y="711.9" width="900.5" height="188.1" fill="#6a4a32"/><path d="M 212.00000000000003 454 L 688 454 L 688 302 L 212.00000000000003 302 Z" fill="#4f412c" stroke="rgba(234,216,176,0.45)" stroke-width="3.2"/><rect x="70" y="90" width="760" height="70" fill="rgba(47,138,122,0.38)" stroke="rgba(234,216,176,0.22)" stroke-width="1.4"/><path d="M 252.00000000000003 378 L 225 378 L 225 702 L 198 702" fill="none" stroke="#8a8680" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" opacity="0.9"/><path d="M 648 378 L 675 378 L 675 702 L 702 702" fill="none" stroke="#6a4a32" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" opacity="0.9"/><rect x="154.8" y="280.8" width="194.4" height="194.4" fill="#1e1a12" stroke="rgba(234,216,176,0.35)" stroke-width="2"/><polygon points="252.00000000000003,306 314.3538290724796,342 314.3538290724796,414 252.00000000000003,450 189.64617092752047,414 189.64617092752044,342" fill="#ead8b0"/><polygon points="252.00000000000003,343.44 281.92983795479023,360.72 281.92983795479023,395.28 252.00000000000003,412.56 222.07016204520983,395.28000000000003 222.07016204520983,360.72" fill="#9e9277"/><rect x="575.1" y="305.1" width="145.8" height="145.8" fill="#1e1a12" stroke="rgba(234,216,176,0.35)" stroke-width="2"/><polygon points="648,324 690.2189000532736,344.3315506996284 700.6461072578185,390.01613043364097 671.4297219123481,426.65231886673064 624.5702780876519,426.65231886673064 595.3538927421815,390.01613043364097 605.7810999467264,344.3315506996284" fill="#977c5e"/><polygon points="648,352.08 668.2650720255714,361.83914433582163 673.2701314837528,383.76774260814767 659.2462665179271,401.3531130560307 636.7537334820729,401.3531130560307 622.7298685162472,383.76774260814767 627.7349279744286,361.83914433582163" fill="#685641"/>
+  <rect width="900" height="900" filter="url(#su-plan-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#su-plan-vig)" style="pointer-events:none"/>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="cables-0">
+  <defs>
+    <filter id="su-flow-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="su-flow-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#897c69" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#897c69" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#14110e"/>
+  <polygon points="80.85714285714286,333 89.85714285714286,351 71.85714285714286,351" fill="#e8d4b4"/><circle cx="102.57142857142857" cy="342" r="9" fill="#e8d4b4"/><polygon points="124.28571428571428,333 133.28571428571428,351 115.28571428571428,351" fill="#e8d4b4"/><polygon points="146,333 155,342 146,351 137,342" fill="#e8d4b4"/><polygon points="167.71428571428572,333 176.71428571428572,342 167.71428571428572,351 158.71428571428572,342" fill="#e8d4b4"/><polygon points="189.42857142857144,333 198.42857142857144,351 180.42857142857144,351" fill="#e8d4b4"/><polygon points="211.14285714285714,333 220.14285714285714,351 202.14285714285714,351" fill="#e8d4b4"/><circle cx="232.85714285714286" cy="342" r="9" fill="#e8d4b4"/><circle cx="254.57142857142858" cy="342" r="9" fill="#e8d4b4"/><circle cx="276.2857142857143" cy="342" r="9" fill="#e8d4b4"/><circle cx="298" cy="342" r="9" fill="#e8d4b4"/><circle cx="319.7142857142857" cy="342" r="9" fill="#e8d4b4"/><circle cx="341.42857142857144" cy="342" r="9" fill="#e8d4b4"/><circle cx="363.14285714285717" cy="342" r="9" fill="#e8d4b4"/><circle cx="384.8571428571429" cy="342" r="9" fill="#e8d4b4"/><circle cx="406.57142857142856" cy="342" r="9" fill="#e8d4b4"/><circle cx="428.2857142857143" cy="342" r="9" fill="#e8d4b4"/><circle cx="450" cy="342" r="9" fill="#e8d4b4"/><circle cx="471.7142857142857" cy="342" r="9" fill="#e8d4b4"/><circle cx="493.42857142857144" cy="342" r="9" fill="#e8d4b4"/><circle cx="515.1428571428571" cy="342" r="9" fill="#e8d4b4"/><circle cx="536.8571428571429" cy="342" r="9" fill="#e8d4b4"/><polygon points="558.5714285714287,333 567.5714285714287,351 549.5714285714287,351" fill="#e8d4b4"/><circle cx="580.2857142857142" cy="342" r="9" fill="#e8d4b4"/><polygon points="602,333 611,342 602,351 593,342" fill="#e8d4b4"/><polygon points="623.7142857142857,333 632.7142857142857,342 623.7142857142857,351 614.7142857142857,342" fill="#e8d4b4"/><polygon points="645.4285714285714,333 654.4285714285714,342 645.4285714285714,351 636.4285714285714,342" fill="#e8d4b4"/><polygon points="667.1428571428571,333 676.1428571428571,342 667.1428571428571,351 658.1428571428571,342" fill="#e8d4b4"/><circle cx="688.8571428571429" cy="342" r="9" fill="#e8d4b4"/><circle cx="710.5714285714286" cy="342" r="9" fill="#e8d4b4"/><circle cx="732.2857142857143" cy="342" r="9" fill="#e8d4b4"/><circle cx="754" cy="342" r="9" fill="#e8d4b4"/><polygon points="775.7142857142858,333 784.7142857142858,351 766.7142857142858,351" fill="#e8d4b4"/><circle cx="797.4285714285714" cy="342" r="9" fill="#e8d4b4"/><circle cx="819.1428571428572" cy="342" r="9" fill="#e8d4b4"/><circle cx="121.11111111111111" cy="822" r="11" fill="#8a8680"/><circle cx="203.33333333333331" cy="822" r="11" fill="#d4783a"/><circle cx="285.55555555555554" cy="822" r="11" fill="#e0a030"/><circle cx="367.77777777777777" cy="822" r="11" fill="#c9b44a"/><circle cx="450" cy="822" r="11" fill="#7a9a3c"/><circle cx="532.2222222222223" cy="822" r="11" fill="#3d8a5a"/><circle cx="614.4444444444445" cy="822" r="11" fill="#2f8a7a"/><circle cx="696.6666666666667" cy="822" r="11" fill="#2f7a8a"/><circle cx="778.8888888888889" cy="822" r="11" fill="#3a6ea8"/>
+  <rect width="900" height="900" filter="url(#su-flow-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#su-flow-vig)" style="pointer-events:none"/>
+</svg>

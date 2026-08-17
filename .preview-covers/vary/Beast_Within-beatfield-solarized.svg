@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="6v-succulent">
+  <defs>
+    <filter id="bfsolarized-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="bfsolarized-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#8a7b56" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#8a7b56" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#16140f"/>
+  <g style="mix-blend-mode:difference"><path fill="rgba(232,208,144,0.9)" fill-rule="evenodd" d="M -253.8 340.0 a 343.8 68.9 0 1 0 687.5 0 a 343.8 68.9 0 1 0 -687.5 0 M 89.8 340.0 a 0.2 0.2 0 1 1 0.4 0 a 0.2 0.2 0 1 1 -0.4 0"/><path fill="rgba(232,208,144,0.6666666666666667)" fill-rule="evenodd" d="M -941.3 340.0 a 1031.3 206.6 0 1 0 2062.6 0 a 1031.3 206.6 0 1 0 -2062.6 0 M -597.5 340.0 a 687.5 137.7 0 1 1 1375.1 0 a 687.5 137.7 0 1 1 -1375.1 0"/><path fill="rgba(163,125,192,0.9)" fill-rule="evenodd" d="M -175.9 410.0 a 343.8 68.9 0 1 0 687.5 0 a 343.8 68.9 0 1 0 -687.5 0 M 167.6 410.0 a 0.2 0.2 0 1 1 0.4 0 a 0.2 0.2 0 1 1 -0.4 0"/><path fill="rgba(163,125,192,0.6666666666666667)" fill-rule="evenodd" d="M -863.5 410.0 a 1031.3 206.6 0 1 0 2062.6 0 a 1031.3 206.6 0 1 0 -2062.6 0 M -519.7 410.0 a 687.5 137.7 0 1 1 1375.1 0 a 687.5 137.7 0 1 1 -1375.1 0"/><path fill="rgba(139,137,198,0.9)" fill-rule="evenodd" d="M -98.1 340.0 a 343.8 68.9 0 1 0 687.5 0 a 343.8 68.9 0 1 0 -687.5 0 M 245.5 340.0 a 0.2 0.2 0 1 1 0.4 0 a 0.2 0.2 0 1 1 -0.4 0"/><path fill="rgba(139,137,198,0.6666666666666667)" fill-rule="evenodd" d="M -785.6 340.0 a 1031.3 206.6 0 1 0 2062.6 0 a 1031.3 206.6 0 1 0 -2062.6 0 M -441.9 340.0 a 687.5 137.7 0 1 1 1375.1 0 a 687.5 137.7 0 1 1 -1375.1 0"/><path fill="rgba(164,102,102,0.9)" fill-rule="evenodd" d="M -56.4 410.0 a 380.0 76.1 0 1 0 759.9 0 a 380.0 76.1 0 1 0 -759.9 0 M 323.3 410.0 a 0.2 0.2 0 1 1 0.4 0 a 0.2 0.2 0 1 1 -0.4 0"/><path fill="rgba(164,102,102,0.6666666666666667)" fill-rule="evenodd" d="M -816.4 410.0 a 1139.9 228.4 0 1 0 2279.8 0 a 1139.9 228.4 0 1 0 -2279.8 0 M -436.4 410.0 a 759.9 152.2 0 1 1 1519.8 0 a 759.9 152.2 0 1 1 -1519.8 0"/><path fill="rgba(208,149,98,0.9)" fill-rule="evenodd" d="M 256.3 340.0 a 398.1 79.7 0 1 0 796.1 0 a 398.1 79.7 0 1 0 -796.1 0 M 654.1 340.0 a 0.2 0.2 0 1 1 0.4 0 a 0.2 0.2 0 1 1 -0.4 0"/><path fill="rgba(208,149,98,0.6666666666666667)" fill-rule="evenodd" d="M -539.8 340.0 a 1194.2 239.2 0 1 0 2388.3 0 a 1194.2 239.2 0 1 0 -2388.3 0 M -141.8 340.0 a 796.1 159.5 0 1 1 1592.2 0 a 796.1 159.5 0 1 1 -1592.2 0"/><path fill="rgba(104,86,72,0.9)" fill-rule="evenodd" d="M 334.1 410.0 a 398.1 79.7 0 1 0 796.1 0 a 398.1 79.7 0 1 0 -796.1 0 M 732.0 410.0 a 0.2 0.2 0 1 1 0.4 0 a 0.2 0.2 0 1 1 -0.4 0"/><path fill="rgba(104,86,72,0.6666666666666667)" fill-rule="evenodd" d="M -462.0 410.0 a 1194.2 239.2 0 1 0 2388.3 0 a 1194.2 239.2 0 1 0 -2388.3 0 M -63.9 410.0 a 796.1 159.5 0 1 1 1592.2 0 a 796.1 159.5 0 1 1 -1592.2 0"/></g>
+  <rect width="900" height="900" filter="url(#bfsolarized-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#bfsolarized-vig)" style="pointer-events:none"/>
+</svg>

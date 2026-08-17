@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" data-cover="1" data-cover-state="onset-belt">
+  <defs>
+    <filter id="jq-stripe-grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="table" tableValues="0 0.55"/>
+    </feComponentTransfer>
+  </filter>
+    <radialGradient id="jq-stripe-vig" cx="50%" cy="46%" r="72%">
+    <stop offset="42%" stop-color="#978369" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#978369" stop-opacity="0.42"/>
+  </radialGradient>
+    
+  </defs>
+  <rect width="900" height="900" fill="#2a1c12"/>
+  <rect x="0" y="0.008859555892282947" width="160" height="900" fill="#d4783a"/><rect x="150" y="14.105389853643782" width="160" height="900" fill="#7a9a3c"/><rect x="300" y="17.527242322845442" width="160" height="900" fill="#c9b44a"/><rect x="450" y="7.684827234708625" width="160" height="900" fill="#2f8a7a"/><rect x="612.5808325617704" y="-7.97331189577991" width="124.83833487645917" height="900" fill="#e0a030"/><rect x="750" y="-17.59740754380435" width="160" height="900" fill="#3d8a5a"/><rect x="0" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="851.1" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="4.890000000000001" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="855.99" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="9.780000000000001" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="860.88" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="14.670000000000002" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="865.77" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="19.560000000000002" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="870.6600000000001" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="24.450000000000003" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="875.5500000000001" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="29.340000000000003" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="880.44" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="34.230000000000004" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="885.33" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="39.120000000000005" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="890.22" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="44.010000000000005" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="895.11" y="0" width="5.290000000000001" height="900" fill="#b080d8"/><rect x="0" y="894" width="900" height="6" fill="#9a4e2a"/>
+  <rect width="900" height="900" filter="url(#jq-stripe-grain)" opacity="0.16" style="pointer-events:none"/>
+  <rect width="900" height="900" fill="url(#jq-stripe-vig)" style="pointer-events:none"/>
+</svg>
